@@ -5,32 +5,33 @@
 	// console.log(location.href.indexOf('login.html'));
 	// 登录成功就会直接跳转不会走这边,
 	// 未登录过走这边比较
-	if(location.href.indexOf('login.html')===-1){
+	 if(location.href.indexOf('login.html')===-1){
 		$.ajax({
 			url:'/employee/checkRootLogin',
 			type:'get',
 			dataType:'json',
 			success:function(info){
+			
 				console.log(info);
 				if(info.error===400){
-					location.href='login.html'
+					 location.href='login.html'
 				}
 			}
 		})
-	}
+    }
 
    // 去除圆圈
     NProgress.configure({ showSpinner: false });
 
     $(document).ajaxStart(function () {
 	      NProgress.start();
-	      console.log(1);
+	      // console.log(1);
 	}); 
      $(document).ajaxStop(function () {
      	setTimeout(function(){
      		NProgress.done();
      	},1000)
-     	console.log(2);
+     	// console.log(2);
 		  
 	});
 $(function(){
@@ -50,7 +51,7 @@ $(function(){
     $('.sign_out').click(function(){
     	$('#logoutModal').modal("show");
     })
-	$('.modal_signOut').click(function(){
+	$('.modalOut').click(function(){
 
 		 $.ajax({
 	    	url:'/employee/employeeLogout',

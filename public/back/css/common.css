@@ -91,6 +91,7 @@
 	/*background-color: skyblue;*/
 	padding-left: 180px;
     transition: all 1s;
+	position: relative;
 }
 .main.active {
     padding-left: 0;
