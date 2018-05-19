@@ -1,0 +1,32 @@
+
+
+
+.history {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 12px;
+}
+.history_top {
+  height: 30px;
+  line-height: 30px;
+}
+
+.history_main ul{
+  border:1px dashed red;
+}
+.history_main ul li {
+  height: 30px;
+  line-height: 30px;
+  border-top:1px dashed red;
+  padding-left: 10px;
+}
+.history_main ul li:first-child {
+  border-top: none;
+}
+.history_main ul li i {
+  line-height: 30px;
+}
+
+
+
+

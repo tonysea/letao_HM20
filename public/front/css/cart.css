@@ -1,0 +1,49 @@
+.lt_container {
+  padding-bottom:85px;
+}
+.lt_total {
+  height: 30px;
+  background-color: #ccc;
+}
+.lt_total .money {
+  line-height: 30px;
+  height: 30px;
+  font-size: 12px;
+}
+.lt_total a {
+  display: block;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: red;
+  font-size: 12px;
+  line-height: 30px;
+}
+.lt_main .items {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.lt_main .items p {
+  margin-bottom: 0;
+}
+.items .main_left {
+  float: left;
+}
+.items .main_left img{
+  width: 60px;
+  height: 60px;
+}
+.items .main_right {
+  overflow: hidden;
+  padding-left: 10px;
+}
+.items .main_right .title {
+  height: 42px;
+  color: #000;
+}
+.items .main_right .price {
+  color: red;
+}
+.items .main_right .oldPrice {
+  text-decoration: line-through;
+}

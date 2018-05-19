@@ -1,0 +1,13 @@
+.main_nav {
+  padding: 10px;
+}
+
+.main_nav a{
+  display: block;
+  float: left;
+  width: 33.3%;
+}
+.main_nav a img {
+  width: 100%;
+}
+
